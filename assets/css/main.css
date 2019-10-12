@@ -173,7 +173,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background: rgb(243, 241, 241);
 }
 
 body.is-preload *,
@@ -237,7 +237,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #787878;
+	color: #eb5676;
 	font-weight: 400;
 	line-height: 1em;
 	margin: 0 0 1em 0;
@@ -259,7 +259,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	line-height: 1.5em;
 }
 
@@ -2152,7 +2152,7 @@ input[type="radio"]+label:before {
 	position: relative;
 }
 
-.image:before {
+/* .image:before {
 	-moz-transition: opacity 0.2s ease-in-out;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
@@ -2167,21 +2167,21 @@ input[type="radio"]+label:before {
 	position: absolute;
 	top: 0;
 	width: 100%;
-}
+} */
 
 .image.thumb {
 	text-align: center;
 }
 
-.image.thumb:after {
+/* .image.thumb:after {
 	-moz-transition: opacity 0.2s ease-in-out;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
 	transition: opacity 0.2s ease-in-out;
 	border-radius: 0.35em;
 	border: solid 3px rgba(200, 200, 200, 0.5);
-	color: #fff;
-	content: 'View';
+	color: #fff; 
+
 	display: inline-block;
 	font-size: 0.8em;
 	font-weight: 400;
@@ -2194,17 +2194,9 @@ input[type="radio"]+label:before {
 	text-align: center;
 	text-decoration: none;
 	top: 50%;
-	white-space: nowrap;
-}
+	white-space: nowrap; 
+}  */
 
-.image.thumb:hover:after {
-	opacity: 1.0;
-}
-
-.image.thumb:hover:before {
-	background: url("images/overlay.png"), url("images/overlay.png");
-	opacity: 1.0;
-}
 
 .image img {
 	border-radius: 0.35em;
@@ -2704,10 +2696,10 @@ input[type="button"]:disabled,
 	justify-content: space-between;
 	background-color: #1f1815;
 	background-attachment: scroll, scroll;
-	background-image: url("images/overlay.png"), url("../../images/dreamstime.jpg");
+	background-image: url("images/overlay.png"), url("../../assets/images/background-2462432_1280.jpg");
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
-	background-size: auto, 150%;
+	background-size: auto;
 	color: rgba(255, 255, 255, 0.5);
 	height: 100%;
 	left: 0;
@@ -2748,7 +2740,7 @@ input[type="button"]:disabled,
 }
 
 #header h1 {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(252, 167, 118, 0.5);
 	font-size: 1.35em;
 	line-height: 1.75em;
 	margin: 0;
@@ -2802,10 +2794,11 @@ input[type="button"]:disabled,
 	max-width: 54em;
 	padding: 8em 4em 4em 4em;
 	width: calc(100% - 35%);
+
 }
 
 #main>section {
-	border-top: solid 2px #efefef;
+	border-top: solid 2px #9b9999;
 	margin: 4em 0 0 0;
 	padding: 4em 0 0 0;
 }
