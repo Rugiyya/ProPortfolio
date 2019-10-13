@@ -5,7 +5,7 @@
 * Link to my GitHub Profile
 * My picture
 * PDF format of my resume
-* My portfolio with GitHub respository Links and Deployed Website Links
+* My projects with GitHub respository Links and Deployed Website Links
 * Contact Information
 
 Developed using Strata by HTML5 UP
