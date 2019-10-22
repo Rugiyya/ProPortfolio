@@ -194,7 +194,7 @@ input,
 select,
 textarea {
 	color: #807e7e;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18pt;
 	font-weight: 400;
 	line-height: 1.75em;
@@ -206,13 +206,13 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #49bf9d;
+	color: #eb5676;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #49bf9d !important;
+	color: #eb5676 !important;
 	text-decoration: none;
 }
 
@@ -264,17 +264,22 @@ h1 {
 
 h2 {
 	font-size: 2em;
-	line-height: 1.5em;
+	line-height: 1.5em
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: 1.7em;
 	line-height: 1.5em;
 }
 
 h4 {
-	font-size: 1.1em;
+	font-size: 0.9em;
 	line-height: 1.5em;
+	color: #535151;
+	text-align: unset;
+
+	margin-top: -1em;
+
 }
 
 h5 {
@@ -2206,8 +2211,13 @@ input[type="radio"]+label:before {
 .image img {
 	border-radius: 0.35em;
 	display: block;
-	border-color: red;
+	border: 2px solid #807e7e;
 }
+
+.image img :hover {
+	border: 3px solid black !important
+}
+
 
 .image.left {
 	float: left;
@@ -2702,7 +2712,7 @@ input[type="button"]:disabled,
 	justify-content: space-between;
 	background-color: #1f1815;
 	background-attachment: scroll, scroll;
-	background-image: url("images/overlay.png"), url("../../assets/images/background-2462432_1280.jpg");
+	background-image: url("../../assets/images/background-2462432_1280.jpg");
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
 	background-size: auto;
