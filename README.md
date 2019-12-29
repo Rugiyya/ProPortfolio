@@ -7,6 +7,8 @@
 * PDF format of my resume
 * My projects with GitHub respository Links and Deployed Website Links
 * Contact Information
+## View 
+![alt text](/assets/images/readme.png)
 
 [Go to Porftolio](https://rugiyya.github.io/ProPortfolio/)
 
